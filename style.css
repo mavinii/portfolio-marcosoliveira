@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+html, 
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/*
+*IMG home
+*/
+.intro{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=581511fae3d6e46d55eb0b6f3d86b69d&auto=format&fit=crop&w=1950&q=80')
+					 no-repeat center fixed;
+	background-size: cover;
+	background-position-x: 50%;
+	display: table;
+	top: 0;				
+}
+
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 20%;
+} 
+
+h1.cover-heading{
+	font-family: 'Raleway', cursive;
+	color: #fff;
+  	text-transform: uppercase;
+  	font-size: 41px;
+  	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             	 0px 8px 13px rgba(0,0,0,0.1),
+            	 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1.cover-heading span{
+  font-weight: 100;
+}
+
+p.lead2{
+	font-size: 22px;
+	font-family: 'Raleway', cursive;
+  	text-shadow: #CCC 1px 0 10px;
+  	color: #fff;
+}
+
+/*
+*button default img home
+*/
+.intro {
+	padding: 0 1.5rem;
+}
+
+.intro .btn-lg{
+  	color: #333;
+   	background-color: #fff;
+	padding: .75rem 1.25rem;
+	font-weight: 700;
+}
+
+/*
+*container principal
+*/
+.padding{
+	padding: 80px 0;
+}
+.row img{
+	padding-left: 45px;
+	padding-bottom: 30px;
+}
+#fixed{
+	background: url('https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1296a4419a6c84e28281db0a564071ef&auto=format&fit=crop&w=1950&q=80')
+						  no-repeat center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;					  
+}
+
+/*
+*footer
+*/
+footer{
+	font-family: 'Raleway', cursive;
+	width: 100%;
+	background-color:#f3f0ea;
+	padding: 2% 5% 0 5%;
+}
+footer h3{
+	text-transform: uppercase;
+}
+footer h4{
+	font-size: 20px;
+}
+.fab{
+	padding: 15px;
+	font-size: 25px;
+	color: #000000;
+}
+.fab:hover{
+	color: #708090;
+	text-decoration: none;
+}
+.icon{
+	padding-right: 40px;
+	max-width: 300px;
+}
