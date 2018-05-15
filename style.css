@@ -75,6 +75,13 @@ p.lead2{
 	padding-left: 45px;
 	padding-bottom: 30px;
 }
+
+.padding .lead a{
+	color: #DC143C;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
 #fixed{
 	background: url('https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1296a4419a6c84e28281db0a564071ef&auto=format&fit=crop&w=1950&q=80')
 						  no-repeat center fixed;
@@ -84,6 +91,7 @@ p.lead2{
 	width: 100%;
 	background-size: cover;					  
 }
+
 
 /*
 *footer
