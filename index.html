@@ -23,9 +23,19 @@
 
 </head>
 <body>
-	
-	<!-- img home -->
-	<section class="intro">
+
+	<!-- NAVBAR -->
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 box-shadow">
+		<h5 class="my-0 mr-md-auto font-weight-normal">Marcos Oliveira</h5>
+		<nav class="my-2 my-md-0 mr-md-3">
+			<a class="p-2" href="#padding">About</a> |
+			<a class="p-2" href="#jobs"> Jobs</a> |
+			<a class="p-2" href="#contact"> Contact </a>
+		</nav>
+	</div>
+			
+	<!-- IMG home -->
+	<section class="intro text-center">
 		<div class="inner">
 			<div class="content">
 				<section class="os-animation" data-os-animation="bounceIn" data-os-animation-delay="0s">
@@ -34,13 +44,13 @@
 				<section class="os-animation" data-os-animation="bounceInDown" data-os-animation-delay=".1s">
 					<p class="lead2">Hello, I'm Marcos, specializing in web design, front-end.</p>
 				</section>
-        <a href="#" class="btn btn-lg btn-default fa fa-coffee"> Learn more</a>
-      </div>
-    </div>
-  </section>
-	
-	<!-- container principal -->
-	<div class="padding">
+				<a href="#padding"><i class="fas fa-arrow-circle-down"></i></a>
+			</div>
+		</div>
+	</section>
+ 
+ 	<!-- container principal -->
+	<div id="padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6"><!-- https://avatars1.githubusercontent.com/u/30133148?s=460&v=4 --> 
@@ -70,80 +80,84 @@
   </div>
 
   <!-- JOBS cards -->
-  <div class=" album py-5 bg-light">
-    <div class="container">
-      <div class="card-deck">
-         <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" src="https://uploaddeimagens.com.br/images/001/414/812/original/index.png?1526159080" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-text">Aikau Colorist</h5>
-              <p class="card-text">Website developed only with HTML and CSS to show some of the works of the digital colorist Aikau Oliveira.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="#" class="btn btn-secondary btn-sm disabled">View</a>
-                </div>
-                <small class="text-muted">STATUS: Offline</small>
-              </div>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col-md-4"> 
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" src="https://uploaddeimagens.com.br/images/001/414/969/original/index.png?1526168019" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-text">Color Game RGB</h5>
-              <p>Small project created to put into practice what was learned at Udemy. HTML, CSS and JS with jQuery.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://mavinii.github.io/color-game-rgb/" class="btn btn-secondary btn-sm">View</a>
-                </div>
-                <small class="text-muted">STATUS: GitHub</small>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div id="jobs">
+  	<div class=" album py-5 bg-light">
+  		<div class="container">
+  			<div class="card-deck box-shadow">
+  				<div class="col-md-4">
+  					<div class="card mb-4 box-shadow">
+  						<img class="card-img-top" src="https://uploaddeimagens.com.br/images/001/414/812/original/index.png?1526159080" alt="Card image cap">
+  						<div class="card-body">
+  							<h5 class="card-text">Aikau Colorist</h5>
+  							<p class="card-text">Website developed only with HTML and CSS to show some of the works of the digital colorist Aikau Oliveira.</p>
+  							<div class="d-flex justify-content-between align-items-center">
+  								<div class="btn-group">
+  									<a href="#" class="btn btn-secondary btn-sm disabled">View</a>
+  								</div>
+  								<small class="text-muted">STATUS: Offline</small>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
 
-        <div class="col-md-4"> 
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" src="https://uploaddeimagens.com.br/images/001/414/998/original/index.png?1526169566" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-text">To-Do List</h5>
-              <p>Task list created with HTML, CSS and JavaScript. Project created with the help of the teacher - Udemy</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://mavinii.github.io/Todo-List-Projects/" class="btn btn-secondary btn-sm">View</a>
-                </div>
-                <small class="text-muted">STATUS: GitHub</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  				<div class="col-md-4"> 
+  					<div class="card mb-4 box-shadow">
+  						<img class="card-img-top" src="https://uploaddeimagens.com.br/images/001/414/969/original/index.png?1526168019" alt="Card image cap">
+  						<div class="card-body">
+  							<h5 class="card-text">Color Game RGB</h5>
+  							<p>Small project created to put into practice what was learned at Udemy. HTML, CSS and JS with jQuery.</p>
+  							<div class="d-flex justify-content-between align-items-center">
+  								<div class="btn-group">
+  									<a href="https://mavinii.github.io/color-game-rgb/" class="btn btn-secondary btn-sm">View</a>
+  								</div>
+  								<small class="text-muted">STATUS: GitHub</small>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-md-4"> 
+  					<div class="card mb-4 box-shadow">
+  						<img class="card-img-top" src="https://uploaddeimagens.com.br/images/001/414/998/original/index.png?1526169566" alt="Card image cap">
+  						<div class="card-body">
+  							<h5 class="card-text">To-Do List</h5>
+  							<p>Task list created with HTML, CSS and JavaScript. Project created with the help of the teacher - Udemy</p>
+  							<div class="d-flex justify-content-between align-items-center">
+  								<div class="btn-group">
+  									<a href="https://mavinii.github.io/Todo-List-Projects/" class="btn btn-secondary btn-sm">View</a>
+  								</div>
+  								<small class="text-muted">STATUS: GitHub</small>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
   </div>
   
   <!-- footer -->
-  <footer class="mastfoot mt-auto text-center">
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Contact Us</h3>
-          <br>
-          <h4>Our address and contact info here.</h4>
-        </div>
-        <div class="col-md-4">
-          <h3>Connect</h3>
-          <a href="https://github.com/mavinii" <i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/pgmarcosoliveira/" <i class="fab fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/pg.marcosoliveira" <i class="fab fa-facebook"></a>
-       		<a href="https://www.instagram.com/mavinii/" <i class="fab fa-instagram"></a>
-       	</div>
-       	<div class="col-md-4">
-      		<img src="http://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png" class="icon" alt="">
-       	</div>
-      </div>
-  </footer>
+  <div id="contact">
+  	<footer class="mastfoot mt-auto text-center">
+  		<div class="row">
+  			<div class="col-md-4">
+  				<h3>Contact Us</h3>
+  				<br>
+  				<h4>Our address and contact info here.</h4>
+  			</div>
+  			<div class="col-md-4">
+  				<h3>Connect</h3>
+  				<a href="https://github.com/mavinii" <i class="fab fa-github"></i></a>
+  				<a href="https://www.linkedin.com/in/pgmarcosoliveira/" <i class="fab fa-linkedin"></i></a>
+  				<a href="https://www.facebook.com/pg.marcosoliveira" <i class="fab fa-facebook"></a>
+  					<a href="https://www.instagram.com/mavinii/" <i class="fab fa-instagram"></a>
+  					</div>
+  					<div class="col-md-4">
+  						<img src="http://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png" class="icon" alt="">
+  					</div>
+  				</div>
+  			</footer>
+  		</div>
     
 	  <!-- Bootstrap and its dependencies -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

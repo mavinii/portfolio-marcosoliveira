@@ -8,6 +8,32 @@ body{
 	width: 100%;
 }
 
+
+/*
+*NAV
+*/
+header{
+	box-shadow: 0 4px 2px -2px gray;
+}
+.d-flex{
+	background-color: #FFFFFF;
+}
+.d-flex h5{
+	font-family: 'Raleway', cursive;
+	font-size: 30px;
+	color: #000000;
+}
+.p-2{
+	font-family: 'Raleway', cursive;
+	font-size: 15px;
+	color: #000000;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4);
+}
+.p-2:hover{
+	color: #708090;
+	text-decoration: none;
+}
+
 /*
 *IMG home
 */
@@ -58,17 +84,15 @@ p.lead2{
 	padding: 0 1.5rem;
 }
 
-.intro .btn-lg{
-  	color: #333;
-   	background-color: #fff;
-	padding: .75rem 1.25rem;
-	font-weight: 700;
+.intro .fas{
+  	color: #FFFFFF;
+	font-size: 30px;
 }
 
 /*
 *container principal
 */
-.padding{
+#padding{
 	padding: 80px 0;
 }
 .row img{
@@ -76,7 +100,7 @@ p.lead2{
 	padding-bottom: 30px;
 }
 
-.padding .lead a{
+#padding .lead a{
 	color: #DC143C;
 	text-transform: uppercase;
 	text-decoration: none;
