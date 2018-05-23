@@ -90,7 +90,7 @@ p.lead2{
 }
 
 /*
-*container principal
+*container about me
 */
 #padding{
 	padding: 80px 0;
@@ -105,6 +105,15 @@ p.lead2{
 #padding .fab{
 	font-size: 30px;
 	margin-left: 20px;
+}
+
+#padding2{
+	padding: 80px 0;
+	background-color: #f8f8f8;
+}	
+
+#padding3{
+	padding: 80px 0;
 }
 
 #fixed{
