@@ -95,15 +95,16 @@ p.lead2{
 #padding{
 	padding: 80px 0;
 }
-.row img{
-	padding-left: 45px;
-	padding-bottom: 30px;
-}
 
 #padding .lead a{
 	color: #DC143C;
 	text-transform: uppercase;
 	text-decoration: none;
+}
+
+#padding .fab{
+	font-size: 30px;
+	margin-left: 20px;
 }
 
 #fixed{
@@ -132,12 +133,12 @@ footer h3{
 footer h4{
 	font-size: 20px;
 }
-.fab{
+footer .fab{
 	padding: 15px;
-	font-size: 25px;
+	font-size: 45px;
 	color: #000000;
 }
-.fab:hover{
+footer .fab:hover{
 	color: #708090;
 	text-decoration: none;
 }
